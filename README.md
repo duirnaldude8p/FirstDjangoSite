@@ -1,0 +1,1 @@
+This is a django web application for a news site
