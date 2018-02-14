@@ -1,0 +1,283 @@
+nav{
+	margin-left: 30%;
+}
+
+.nav > .nav-pills{
+	background-color: #1E90FF;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding-right: 50px;
+
+}
+
+#title{
+	font: 50px arial, sans-serif;
+	margin: 5% 0 0 10%;
+}
+
+#image{
+	height: 600px;
+	width: 800px;
+	margin: 5% 0 0 10%;
+}
+
+#likeDislike{
+	background-color: brown;
+	height: 20px;
+	width: 200px;
+}
+
+#like > #like-icon{
+	background-color: brown;
+	width: 100px;
+	height: 30px;
+	margin: 5% 0 0 11%;
+}
+#like > #like-icon > #like-icon-like{
+	float: left;
+	background-color: #ffffff;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}
+
+#like > #like-icon > #like-icon-dislike{
+	background-color: #ffffff;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}
+
+.fa{
+	height: 100%;
+	width: 100%;
+}	
+
+
+.fa-thumbs-o-up{
+    position:relative;
+}    
+.fa-thumbs-o-up:before {
+    content: "\f164";  
+    font-family: FontAwesome;
+    left: 15px;
+    font-size: 140%;
+    position:absolute;
+    top: 5px;
+ }
+
+ .fa-thumbs-o-down{
+    position:relative;
+}    
+.fa-thumbs-o-down:before {
+    content: "\f165";  
+    font-family: FontAwesome;
+    left: 15px;
+    font-size: 140%;
+    position:absolute;
+    top: 5px;
+ }
+#text{
+	width: 800px;
+	height: 400px;
+	margin: 5% 0 0 10%;
+}
+
+#comment-container{
+	height: 2000px
+	width: 800px;
+	margin: 5% 0 0 10%;
+}
+#comment-container > #comment{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#comment > #comment-input-container{
+    margin-top: 5%;
+    left: 20%;
+    width: 650px;
+    height: 200px;
+    position: relative;
+    background-color: #1E90FF;
+}
+
+#comment > #comment-input-container > #comment-label{
+	left: 5%;
+	width: 90%;
+	position: relative;
+}
+
+
+#comment > #comment-input-container > #comment-input{
+	left: 5%;
+	width: 90%;
+	position: relative;
+}
+
+#comment > #comment-input-container > #add-button{
+	left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 30%;
+	position: relative;
+}
+
+#comments{
+	background-color: #1E90FF;
+	margin-top: 5%;
+    width: 650px;
+    height: 50%;
+    left: 20%;
+    position: relative;
+    list-style: none;
+
+
+}
+
+#comments > li{
+	background-color: #FAFAD2;
+	width:  600px;
+	height: 95%;
+	margin: 1%;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+
+#login-container{
+	top: 30px;
+	height: 300px;
+	width: 400px;
+	background-color: #1E90FF;
+}
+
+#login-container > #login-input{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 300px;
+	position: relative;
+}
+
+#login-container > #login-buttons{
+	margin-top: 5%;
+	margin-left: 10%;
+	position: relative;
+}
+
+#login-container > #login-buttons > #login-button{
+	margin-right: 5%;
+}
+
+#signup-container{
+	top: 30px;
+	height: 500px;
+	width: 600px;
+	background-color: #1E90FF;
+}
+
+#signup-container > #name-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#signup-container > #phoneNo-container{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#signup-container > #username-container{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#signup-container > #password-container{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#signup-container > #submit-container{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 100px;
+	position: relative;
+}
+
+.space{
+	margin-left: 5px;
+}
+
+#account-container{
+	top: 30px;
+	height: 700px;
+	width: 600px;
+	background-color: #1E90FF;
+}
+
+#account-container > #usr-var-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#account-container > #name-var-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#account-container > #phn-var-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#account-container > #change-name-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#account-container > #change-phn-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#account-container > #account-buttons-container{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 500px;
+	position: relative;
+}
+
+#name-button{
+	margin-right: 20px;
+}
+
+#number-button{
+}
+
+.empty{
+
+}
+
+.disable{
+	pointer-events: none;
+    cursor: default;
+}

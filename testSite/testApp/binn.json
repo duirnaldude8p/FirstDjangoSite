@@ -1,0 +1,80 @@
+// function theRobot(){
+// 	var newVal3 = localStorage.getItem('hasChanged');
+//     if(newVal3=='Y'){
+// 	// foo.robotselect('bpawn2');
+// 	// // //foo.robotmoveTo('r7B');
+// 	// foo.robotmoveTo('r6B');
+// 	foo.select('bpawn3');
+// 	// // //foo.robotmoveTo('r7C');
+// 	foo.moveTo('r6C');
+	
+// 	foo.select('bpawn5');
+// 	// //foo.robotmoveTo('r7E');
+// 	foo.moveTo('r5E');
+
+// 	// foo.select('bpawn4');
+// 	// // // //foo.robotmoveTo('r7C');
+// 	// foo.moveTo('r5D');
+
+	
+	
+
+// 	//foo.select('bpawn7');
+// 	// //foo.robotmoveTo('r7G');
+// 	//foo.moveTo('r6G');
+
+// 	//foo.select('bpawn8');
+// 	//foo.moveTo('r5H');
+
+// 	//foo.select('bbishop1');
+// 	//foo.moveTo('r4G');
+
+// 	//foo.robotselect('bpawn2');
+// 	//foo.robotmoveTo('r5B');
+// 	foo.select('bpawn3');
+// 	foo.moveTo('r6C');
+
+// 	foo.select('bpawn2');
+// 	foo.moveTo('r6B');
+// 	//foo.robotmoveTo('r5B');
+// 	//foo.robotmoveTo('r4B');
+// 	//foo.robotselect('bpawn4');
+// 	//foo.robotmoveTo('r5D');
+
+// 	// foo.robotselect('bhorse1');
+// 	// //foo.robotmoveTo('r8B');
+// 	// foo.robotmoveTo('r6C');
+
+// 	//foo.robotselect('bhorse1');
+// 	//foo.robotmoveTo('r4D');
+
+// 	//foo.robotselect('bpawn2');
+// 	//foo.robotmoveTo('r5B');
+// 	//foo.robotselect('bbishop2');
+// 	//foo.robotmoveTo('r3A');
+
+// 	foo.select('bqueen');
+// 	//foo.robotmoveTo('r8D');
+// 	foo.moveTo('r4H');
+
+// 	foo.select('bbishop1');
+// 	foo.moveTo('r5F');
+
+// 	foo.select('bpawn6');
+// 	// //foo.robotmoveTo('r7F');
+//     foo.moveTo('r6F');
+// 	//foo.robotselect('bqueen');
+// 	//foo.robotmoveTo('r5A');
+// 	//foo.robotmoveTo('r4G');
+
+// 	//foo.robotselect('bqueen');
+// 	//foo.robotmoveTo('r4B');
+// 	//foo.robotmoveTo('r4F');
+
+
+// 	//console.log('changed');
+// 	//foo2.robotselect('bqueen');
+// 	//foo2.robotmoveTo('r4A');
+// }
+	
+// }

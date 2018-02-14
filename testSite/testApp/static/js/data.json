@@ -1,0 +1,65 @@
+{
+	"news": {
+			"title": "Rain",
+			"text": "its raining hooray",
+			"newscomments": [
+					{
+						"comment": "damn I hate rain!"
+					},
+					{
+						"comment": "time to watch some soaps!"
+					},
+					{
+						"comment": "whaaaat!"
+					}	
+			 	],
+			"picture": "/static/rain.jpg",
+			"addedcomment": "Hey whats this"
+		},
+	"sport": {
+			"title": "Goal",
+			"text": "someone scored a goal",
+			"sportcomments": [
+					{
+						"comment": "what a goal!"
+					},
+					{
+						"comment": "wow!"
+					},
+					{
+						"comment": "whaaat!"
+					}	
+			    ],
+			"picture": "/static/goal.jpg",
+			"addedcomment": "Hey whats this"
+		},
+	"bussiness": {
+			"title": "Making Profit",
+			"text": "I profit today",
+			"bizcomments": [
+					{
+						"comment": "Hmmm money!"
+					},
+					{
+						"comment": "I can smell the cash!"
+					},
+					{
+						"comment": "whaaat!"
+					}	
+			   ],
+			"picture": "/static/profit.jpg",
+			"addedcomment": "Hey whats this"
+		},
+	"account": [
+		
+		{
+			"username": "sam@yahoo.com",
+			"password": "footie",
+			"name": "sam",
+			"phoneNumber": "09876543436",
+			"newsPagelikeOrDislike": "false",
+			"sportPagelikeOrDislike": "false",
+			"bizPagelikeOrDislike": "false"
+		}
+	]
+}

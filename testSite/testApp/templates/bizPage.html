@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<link rel='stylesheet' href='{% static "css/bootstrap.min.css" %}'/>
+<link rel='stylesheet' href='{% static "css/style.css" %}'/>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'/>
+<div>
+    {% block content %}
+    <nav>
+        <ul class="nav nav-pills container">
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8000/testApp">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8000/testApp/sport">Sport</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="http://localhost:8000/testApp/bussiness">Bussiness</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8000/testApp/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8000/testApp/signup">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a id="accInfo" class="nav-link disabled" href="http://localhost:8000/testApp/accountInfo">Account</a>
+            </li>
+        </ul>
+    </nav>
+    <ul id='list' class='container'>
+        <form class="form" method="post" action="" id='form1'>
+            {% csrf_token %}
+            <div id="title" class="row"></div> 
+            <img id="image" class="row" alt="no picture"> 
+            <div id="like" class="row">
+                <div id="like-icon">
+                    <div id="like-icon-like">
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                    </div>
+                    <div id="like-icon-dislike">
+                        <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <p id="text" class="row"></p>
+            <div id="comment-container" class="row">
+                <div id="comment" class="container">
+                    <div id="comment-input-container" class="row">
+                        <label id="comment-label">Add Comment:</label>
+                        <input id="comment-input" type="text" class="form-control row">
+                        <input id="add-button" type="submit" class="btn btn-success row" value='Add'>
+                    </div>
+                    <div id="comments" class="row"></div>
+                </div>
+            </div>
+        </form>
+        {% endblock %}
+    </ul>
+</div>
+<script src='{% static "js/jquery-3.2.1.js" %}'></script>
+<script src='{% static "js/bizScript.js" %}'></script>

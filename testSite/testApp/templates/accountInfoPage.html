@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<link rel='stylesheet' href='{% static "css/bootstrap.min.css" %}'/>
+<link rel='stylesheet' href='{% static "css/style.css" %}'/>
+<div class="container">
+		{% block content %}
+		<nav>
+    <ul class="nav nav-pills row">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/sport">Sport</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/bussiness">Bussiness</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/signup">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="http://localhost:8000/testApp/accountInfo">Account</a>
+        </li>
+    </ul>
+  </nav>
+		<form class="form row" method="post" action="" id='form1'>
+		    {% csrf_token %}
+        <div id="account-container" class="container">
+            <div id="usr-var-container" class="row">
+			          <label class="space">Username/Email:</label>
+			          <label id='usrnm'></label>
+            </div>
+            <div id="name-var-container" class="row">  
+			          <label class="space">Name:</label>
+			          <label id='name'></label>
+            </div>
+            <div id="phn-var-container" class="row">
+			          <label class="space">PhoneNumber:</label>
+			          <label id='num'></label>
+            </div>
+            <div id="change-name-container" class="row">
+			          <label class="space">Change Name:</label>
+			          <input type="text" class="form-control" id="newname">
+            </div>
+            <div id="change-phn-container" class="row">
+			          <label class="space">Change Phone Number:</label>
+			          <input type="text" class="form-control" id="newnumber">
+            </div>
+            <div id="account-buttons-container" class="row">
+			          <input id="name-button" type="submit" class="btn btn-success" value='Submit Name'>
+			          <input id="number-button" type="submit" class="btn btn-success" value='Submit Number'>
+            </div>
+        </div>
+		</form>
+		{% endblock %}
+	</div>
+<script type='text/javascript' src='{% static "js/jquery-3.2.1.js" %}'></script>
+<script type='text/javascript' src='{% static "js/accountInfoScript.js" %}'></script>

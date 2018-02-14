@@ -1,0 +1,57 @@
+s<!DOCTYPE html>
+
+{% load staticfiles %}
+<link rel='stylesheet' href='{% static "css/bootstrap.min.css" %}'/>
+<link rel='stylesheet' href='{% static "css/style.css" %}'/>
+<div class="container">
+	{% block content %}
+    <nav>
+      <ul class="nav nav-pills row">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/sport">Sport</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/bussiness">Bussiness</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8000/testApp/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="http://localhost:8000/testApp/signup">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a id="accInfo" class="nav-link disabled" href="http://localhost:8000/testApp/accountInfo">Account</a>
+        </li>
+    </ul>
+  </nav>
+	<form id='form1 row' method='post' action="" class='container'>
+	    {% csrf_token %}
+      <div id="signup-container" class="container">
+          <div id="name-container" class="row">  
+		          <label>Name:</label>
+  			      <input type="text" class="form-control" id="name">
+          </div>
+          <div id="phoneNo-container" class="row">   
+  			      <label>Phone Number:</label>
+  			      <input type="text" class="form-control" id="num">
+          </div>
+          <div id="username-container" class="row">
+  			      <label>Username:</label>
+  			      <input type="text" class="form-control" id="usr">
+          </div>
+          <div id="password-container" class="row">
+  			      <label>Password:</label>
+  			      <input type="password" class="form-control" id="pwd">
+          </div>
+          <div id="submit-container" class="row">
+		          <input id="add-button" type="submit" class="btn btn-success" value='Add'>
+          </div>
+      </div>
+	</form>
+	{% endblock %}
+</div>
+<script src='{% static "js/jquery-3.2.1.js" %}'></script>
+<script src='{% static "js/signupScript.js" %}'></script>

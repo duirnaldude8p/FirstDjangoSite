@@ -1,0 +1,9 @@
+{
+	"username": "sam@yahoo.com",
+	"password": "footie",
+	"name": "sam",
+	"phoneNumber": "09876543436",
+	"newsPageLikeOrDislike": false,
+	"sportPageLikeOrDislike": false,
+	"bizPageLikeOrDislike": false
+}
